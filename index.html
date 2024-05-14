@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Chrome : Moon, Sunrise & Sunset</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/dictionary.js" rel="javascript" type="text/javascript" defer></script>
+    <script src="./js/background.js" rel="javascript" type="text/javascript" defer></script>
+    <script src="./js/content.js" rel="javascript" type="text/javascript" defer></script>
+    <script src="./js/moon.js" rel="javascript" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="popup-container">
+        <h1>Sunrise & Sunset Extension</h1>
+        <div class="icon-container"></div> 
+        <div class="wrapper">
+            <div class="sun"></div>
+            <div class="moon"></div>
+            <div class="wrapper-2">
+                <div class="img-area"></div> 
+                
+                <h2 id="date" class="text"></h2>
+                <h2 id="time" class="text"></h2>
+                <h3 id="tzid" class="text"></h3>
+
+                <p class="text"><img src="./img/sunrise2.png" alt="Sunrise Icon" class="icon">&nbsp;<span id="sunrise"></span>
+                </p>
+
+                <p class="text"><img src="img/sunset.png" alt="Sunset Icon" class="icon">&nbsp;<span id="sunset"></span>
+                </p>
+
+                <div class="icon-container">
+                    <div class="time">
+                        <p id="date"></p>
+                        <p id="time"></p>
+                    </div>
+                </div>
+
+                <div class="moon-phase">
+                    <div class="moon-container"><img id="moon-image" src="./img/new_moon.svg" alt="Moon Phase"></div>
+                    <div id="phase"></div>
+                </div>
+            </div>
+        </div>
+        <a href="option.html"><img width="23px" src="./img/settings.png" alt="settings icon"></a>
+    </div>
+</body>
+</html>

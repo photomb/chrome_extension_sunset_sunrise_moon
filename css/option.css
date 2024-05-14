@@ -1,0 +1,43 @@
+
+body {
+    width: 300%;
+    height: 80vh;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #333;
+    font-size: 0.9em;
+}
+
+h3 {
+    color: #333;
+    font-size: 0.7em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
